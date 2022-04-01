@@ -1,0 +1,37 @@
+body{
+    color: #8685EF;
+    color: #f9f5ff;
+    color: #474554; 
+    color: #ACA9BB; 
+    color:rgb(​ 71,69,84);
+
+
+
+    /*Greens*/
+    color: #A4C2DC; 
+    color:#1D3637;
+    color: #006D70; 
+    color: #00ACB6; 
+    color: #00C896; 
+    color:#00754B;
+    color: #5FFBF1;
+
+    /*Color gradients*/
+    background-image: linear-gradient(to bottom, #ccc6eb, #9996b3, #6a687d, #3f3e4c, #18181f);
+
+    background-image: linear-gradient(to bottom, #adadad, #99989b, #85848a, #727079, #5f5d69, #50515d, #424552, #343a46, #28323a, #1f292e, #172123, #111818);
+    /*Ash*/
+    background-image: radial-gradient(circle, #adadad, #99989b, #85848a, #727079, #5f5d69, #524f5a, #46414c, #3a343e, #2e282e, #221d20, #151213, #000000);
+    /*Greenish*/
+    background-image: radial-gradient(circle, #adadad, #aaafbc, #9cb4cb, #83bad6, #60c2d8, #49c8d7, #2fcdd2, #16d2c9, #03d7c6, #00dcc3, #05e0be, #19e5b9);
+
+    /*Instagram*/
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+

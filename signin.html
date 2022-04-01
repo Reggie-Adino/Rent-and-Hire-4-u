@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/signup.css">
+    <script src="Assets/JS/Jquery.js"></script>
+    <title>SignUp/SIgnIn</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="video_bg">
+            <video autoplay muted >
+                <source src="Assets/Vid/RENT&HIRE4U.mp4"  type="video/mp4" />
+            </video>
+        </div>
+    <div class="wrapper2">
+        
+            <div class="card">
+            <div class="front">
+                <form id="form1" method="post">
+                    <div class="text">
+                        <input id="useremail" type="text "required>
+                        <span></span>
+                        <label>Email address</label>
+                    </div>
+                    <div class="text" required>
+                        <input type="password" id="pwd" required>
+                        <span></span>
+                        <label>Password</label>
+                    </div>
+                    
+                    <div class="forgot_pass">
+                        Forgot Password?
+                    </div>
+                    <input type="submit" value="Sign In"/>
+
+                    <div class="signup">
+                        Not a member
+                        <a href="#">sign up</a>
+                    </div>
+
+                </form>
+            </div>
+
+                <!-- SIGN UP HIDDEN -->
+                <div class="back">
+                    <form id="form2" method="post">
+                        <div class="text2">
+                            <input class="signup-input" type="text" placeholder="First Name" required id="firstName"/>
+                        </div>
+
+                        <div class="text2">
+                            <input class="signup-input" type="tetx" placeholder="Middle Name"/>
+                        </div>
+
+                        <div class="text2">
+                            <input class="signup-input" type="text" placeholder="Last Name" required id="lastName"/>
+                        </div>
+                        <div class="">
+                            <select id="gender">
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                        <div class="text2">
+                            <input type="email" placeholder="Email"
+                            required  id="email"/>
+                        </div>
+                        
+                        <div class="text2">
+                            <input class="signup-input" type="password" placeholder="Password" required/>
+                        </div>
+
+                        <div class="text2">
+                            <input class="signup-input" type="password" id="password" placeholder="Confirm Password" required/>
+                        </div>
+                            <div class="loc" id="position" required>
+                                <div class="text2" id="phonenum">
+                                    <input type="tel" placeholder="Phone number" required/> 
+                                     <!-- pattern="[0-9] {10}" -->
+                                </div>
+                                <div id="location2">            <select id="selectloc2">
+                                <option selected>Location</option>
+                                <option>Ashanti Region</option>
+                                <option>Greater Accra Region</option>
+                                <option>Bono Region</option>
+                                <option>North East Region</option>
+                                <option>Western North Region</option>
+                                <option>Western Region</option>
+                                <option>Volta Region>
+                                <option>Eastern Region</option>
+                                <option>Central Region</option>
+                                <option>Northern Region</option>
+                                <option>Upper East Region</option>
+                                <option>Upper West Region</option>
+                                <option>Savannah Region</option>
+                                <option>Oti Region</option>
+                                <option>Ahafo Region</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="signUp">
+                            <input type="submit">
+                        </div>
+                        </form>
+                        <div class="signin">
+                            Have an account already<a>
+                            Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Assets/JS/javascript.js">
+            
+        </script>
+        <script src="assets/JS/signupapp.js"></script>
+</body>
+</html>
